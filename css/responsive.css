@@ -20,13 +20,32 @@
 
 @media (max-width:425px) {
 
+     
+    .side-header .logo{
+        margin: 0;
+        margin-top: 10px;
+    }
+
     .side-header{
+        width: 60px;
+    }
+
+    .side-content{
+        width: calc(100% - 60px);   
+    }    
+
+    .back-icon{
+        font-size: 3rem;
+    }
+
+    
+/*     .side-header{
         width: 80px;
     }
 
     .side-content{
         width: calc(100% - 80px);   
-    }    
+    }     */
 
     .side-content .left-content .tag-line .tag-line-1, .side-content .left-content .tag-line .tag-line-2{
         font-size: 1rem;
