@@ -37,6 +37,16 @@
     .back-icon{
         font-size: 3rem;
     }
+    
+    .side-header .social{
+        margin: 10px;
+    }
+
+    
+    .side-header .nav-bar ul li a
+    {
+        margin-top: 30px;
+    }
 
     
 /*     .side-header{
